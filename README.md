@@ -28,11 +28,13 @@ Model Architecture: ResNet-based model
 
 Libraries: NumPy, OpenCV, Matplotlib
 
-Development Environment: Google Colab 
+Development Environment: Google Colab
 
 Dataset
 
-Retinal  OCT images collected from publicly available medical datasets
+Retinal / OCT images collected from publicly available medical datasets
+
+Dataset source:
 https://www.kaggle.com/datasets/paultimothymooney/kermany2018
 
 Images are resized and normalized before training
@@ -41,7 +43,7 @@ Dataset is split into training, validation, and testing sets
 
 Model Details
 
-Uses a Convolutional Neural Network for feature extraction
+Uses a Convolutional Neural Network (CNN) for feature extraction
 
 Learns disease-specific patterns from retinal images
 
@@ -50,23 +52,17 @@ Trained using supervised learning with labeled data
 Performance evaluated using accuracy and loss curves
 
 How to Run the Project
-
-Clone the repository:
-
+Clone the repository
 git clone https://github.com/Hari8749/Retinol_classification_model.git
 
-
-Navigate to the project directory:
-
+Navigate to the project directory
 cd Retinol_classification_model
 
-
-Open and run the notebook or Python script:
+Run the project
 
 If using Google Colab, upload the notebook and run all cells
 
 If running locally, ensure Python and required libraries (TensorFlow, NumPy, OpenCV) are installed
-
 
 Results
 
